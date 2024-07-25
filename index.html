@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+    <h1><i>Shopify_2.0</i></h1>
+
+    <header>
+        <div class="top-bar">
+            <div id="search-container">
+            <input type="text" id="search" placeholder="Search products..." class="search-bar">
+            <button id="search-btn">Search</button>
+        </div>
+            <div class="cart-info">
+                <span id="basket-count">0</span>
+                <a href="basket.html">
+                <img src="basket.png" alt="Basket" id="basket-icon" >
+                </a>
+            </div>
+        </div>
+    
+    <div id="filter-controls">
+        <button id="all" class="filter-btn active">All</button>
+        <button id="men" class="filter-btn">Men</button>
+        <button id="women" class="filter-btn">Women</button>
+        <button id="kids" class="filter-btn">Kids</button>
+        
+</div>
+</header>
+    <div id="json-output"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
